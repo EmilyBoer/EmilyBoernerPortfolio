@@ -1,0 +1,609 @@
+
+
+*{
+  margin:0;
+}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+}
+
+/*BODY*/
+
+/*elements on every page */
+
+.skill-header{
+  text-align: center;
+  color:black;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  /*font-family: 'Patua One', cursive;*/
+}
+
+
+
+.background{
+ background-color:white;
+}
+
+
+.navbar-toggle{
+  background-color:white;
+}
+
+.icon-bar{
+  background-color:white;
+}
+
+.nav{
+  text-align: left;
+}
+
+/*INDEX SECTION*/
+
+.index-container{
+  margin-bottom: 220px;
+}
+
+
+
+#index{
+  background-image: url("city-image-dark.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  min-height: 100%;
+}
+
+.center-list{ /*line up name, button, line on page*/
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.center{ /*line up name, button, line on page*/
+  padding-right: 0px;
+  text-align: center;
+}
+
+@keyframes fadein {
+  from { opacity: 0; letter-spacing: 1vw;}
+  to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; letter-spacing: 1vw;}
+  to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; letter-spacing: 1vw;}
+  to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; letter-spacing: 1vw;}
+  to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; letter-spacing: 4vw;}
+  to   { opacity: 1; letter-spacing: .5vw;}
+}
+/*name and button*/
+
+.name{ /*<--title and paragraph-->*/
+  font-size:3.12vw;
+  padding-left: 10vw;
+  letter-spacing: .1vw;
+  font-weight: 400;
+  color: white;
+  font-family: font-family: 'Patua One', cursive;
+  margin-left: 0px;
+  text-align: left;
+  margin-top: 220px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+
+
+.get-in-touch{
+  letter-spacing: 1px;
+  margin-top: 40px;
+  background-color: transparent;
+  border:1px white solid;
+  color: white;
+  font-size:25px;
+  font-family: font-family: 'Patua One', cursive;
+  font-weight: 100;
+  position:relative;
+  text-align: center;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+
+.get-in-touch:hover{
+  background-color:white;
+  letter-spacing: 2px;
+}
+
+
+/*PROJECT SECTION*/
+
+#projects{
+  margin-bottom:70px;
+}
+
+.skill-header-projects{
+  text-align: center;
+  color:black;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+
+
+#project{
+  background-color: white;
+}
+
+
+
+
+
+.owl-dots {
+  margin-top: 0px;
+  z-index: 1000;
+  position: relative;
+  text-align: center;
+  margin-top: -20px
+}
+
+div.owl-dot.active {
+  border: 5px black solid;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 1.2vw;
+}
+
+div.owl-dot {
+ border: 5px silver solid; 
+ border-radius: 6px;
+ display: inline-block;
+ margin: 1.2vw;
+}
+
+.owl-carousel .owl-nav .owl-prev img {
+  max-width: 25px;
+  z-index: 1002;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 2%;
+}
+
+
+.owl-carousel .owl-nav .owl-next img{
+  margin-left: 95%;
+  max-width: 25px;
+  z-index: 1002;
+  position: absolute;
+  margin-top: -20%;
+}
+
+
+.carousel-indicators .active{
+  background-color:#4d4d4d;
+}
+
+.carousel-indicators li {
+ border:1px solid #4d4d4d;
+}
+
+.carousel-indicators {
+  margin-bottom: -10px;
+}
+
+
+
+/*CONTACT SECTION*/
+#contact{
+  background-image:url("citystreet.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+
+.contact-container{
+  margin-bottom: 170px;
+}
+
+.contact-section{
+  background-color: #6C6C50;
+}
+
+.div-box-contact{
+ border-bottom: solid 1px white;
+ margin-bottom:150px;
+ margin-top: 20px;
+}
+
+.skill-header-contact{
+  text-align: center;
+  color:white;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+.center{
+  text-align: center;
+}
+
+.contact-info{
+  font-size:1.7em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.contact-info2{
+  font-size:1.7em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+a.contact-info2:hover, a.contact-info:hover{
+  text-decoration: none;
+  color:white;
+}
+
+.fa-envelope{
+  color:white;
+  margin-right:20px;
+}
+
+.fa-phone-square{
+  color:white;
+  margin-right:20px;
+}
+
+
+/*social media icons*/
+.github{
+  margin-left:-25px;
+}
+
+.icons{
+  list-style-type: none;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+
+.socialmedia-icons{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.space{
+  margin-right: 23px;
+}
+
+.fa-github:hover{
+  color:black;
+}
+
+.fa-linkedin:hover {
+  color:#007bb6
+}
+
+.fa-twitter:hover{
+  color:#00aced;
+}
+
+.fa-facebook:hover{
+  color:#3b5998;
+}
+
+
+.fa-linkedin, .fa-twitter, .fa-facebook, .fa-github{
+  color:white;
+}
+
+.icons{
+  margin-bottom: 100px;
+}
+
+
+.scroll-margin{
+  padding-right: 35px;
+  padding-left: 35px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.container-fluid{
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+
+
+
+
+@media screen and (min-width:1500px)  {
+  .name{
+    font-size:4.5vw;
+  }
+}
+
+
+
+/*tablet-size lrg */
+@media screen and (max-width:991px)  {
+
+
+  .name{
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .web{
+    font-size:8vw;
+  }
+}
+/*tablet-size med*/
+@media screen and (max-width:768px)  {
+
+
+  .owl-prev, .owl-next{
+    display: none;
+  }
+
+
+
+  /*ALL SECTIONS */
+  .section-header{
+    font-size:3em;
+  }
+
+  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:70px;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
+  }
+
+  .owl-dots{
+   margin-top:0px;
+ }
+
+ /*INDEX SECTION*/
+ .navbar{
+  background-color: white;
+}
+
+
+.name{
+  margin-top: 280px;
+}
+}
+
+
+
+
+/*tablet-size sm*/
+@media screen and (max-width:580px)  {
+
+  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:100px;
+    font-size: 3em;
+  }
+
+  .skill-header-skills, .skill-header-projects{
+    text-align: center;
+    color:black;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
+  }
+  .skill-header-contact{
+    font-size:3em;
+    color:white;
+  }
+
+  .owl-dots{
+    margin-top: 10px;
+  }
+
+  /*  INDEX SECTION*/
+
+  .get-in-touch{
+    background-color:white;
+    color:gray;
+  }
+
+
+  /*PROJECT SECTION*/
+  .project-section{
+    margin-bottom: 60px;
+  }
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}
+}
+
+
+
+/*mobile-size*/
+@media screen and (max-width:500px)  {
+
+  .navbar-brand{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: .4vw;
+  }
+
+  #index{
+    background-image: url("lights.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*background-repeat: no-repeat;*/
+    width: 100%;
+    min-height: 100%;
+  }
+
+
+  /*ALL SITES */
+  .skill-header-skills, .skill-header, .skill-header-projects{
+    font-size:2.4em;
+    margin-top: 100px;
+  }
+  .skill-header-contact{
+    font-size:2.4em;
+    margin-top: 100px;
+  }
+
+
+  .skill-header-contact{
+    color:white;
+  }
+
+
+  /*contact*/
+  .div-box-contact{
+    border-bottom: solid 1px white;
+    margin-bottom:100px;
+    margin-top: 20px;
+  }
+
+
+  /*INDEX*/
+  .index-container{
+    margin-bottom: 30px;
+  }
+
+  #index {
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 0px;
+  }
+
+  .name{
+
+    margin-top: 42%;
+    font-weight: 400;
+  }
+
+  .get-in-touch{
+    margin-top: -5px;
+  }
+
+
+
+
+
+
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}
+
+/*CONTACT SECTION*/
+#contact{
+  position: relative;
+  display: block;
+  height: auto;
+  width: auto;
+  background-color: #222222;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-bottom: 240px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
+
+.contact-info{
+  font-size:1.2em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-info2{
+  font-size:1.3em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-container{
+  margin-bottom: 70px;
+}
+.icons{
+  margin-top: -20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.skill-header-skills, .skill-header, .skill-header-projects{
+  font-size:2.4em;
+  margin-top: 100px;
+}
+
+}
+
+

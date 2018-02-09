@@ -1,0 +1,865 @@
+
+body{
+max-width:100%;
+}
+
+/*
+INDEX*/
+
+#bio{
+	font-size:3rem;
+	font-family: 'Copse', serif;
+	letter-spacing: 1px;
+	line-height: 10vh;
+	transition: ease .5s;
+}
+
+.single-char:hover {
+	font-size: 10vh;
+	text-transform: uppercase;
+	cursor:pointer;
+	color:#28a745;
+	transition: ease .5s;
+}
+
+.navigation{
+	width:100%;
+	background-color: white;
+	height: 10vw;
+}
+
+.navbar-brand{
+	color:#FFD738;
+	font-weight: 700;
+	font-size: 30px;
+	margin-left: 100px;
+    margin-top: 3vw;
+}
+
+.project-title{
+    color:#525252;
+	font-weight: 700;
+	font-size: 30px;
+    margin-top: 3vw;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+
+.nav-group{
+	margin-right:100px;
+	float: right;
+	color:#525252;
+	display: inline-block;
+	margin-top: 4vw;
+}
+
+ a.nav-link{
+	color:#7E7E7E;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+ li.nav-list{
+	display: inline-block;
+	list-style: none;
+	color:#525252;
+}
+
+
+.angle-down{
+	color:white;
+	font-size: 60px;
+	padding-top: 40px;
+}
+
+.computer-frame{
+	z-index: 99;
+	left: 10vh;
+}
+
+.project-section{
+	margin-left: 20vh;
+	margin-right:20vh;
+}
+
+
+.portfolio-image-div{
+	padding:0;
+}
+
+.inner-image{
+    position: relative;
+	z-index: 999;
+	/*left: 10vh;*/
+	transition: ease .5s;
+}
+
+
+/*WRAPPING AROUND THE ENTIRE OVERLAY*/
+/*.skill-group{
+	opacity: 0;
+	position: absolute;
+	z-index: 1000;
+	list-style: none;
+	color: black;
+	margin-top: -35vh;
+	transition: ease .5s;
+	font-weight: 100;
+	letter-spacing: 1px;	
+}*/
+
+
+
+
+h4{
+	margin-bottom: 10px;
+}
+
+.title-skills-group{
+	margin-top:-20vh;
+	transition: ease 1s;
+}
+
+
+.skill-items  {
+	display: inline-block;
+	max-width: 85%;
+	color:black;
+	margin-top: 0px;
+	margin-bottom: 35px;
+	transition: ease .5s;
+}
+
+.skill-items p {
+	display: inline-block;
+	max-width: 80%;
+	color:blue;
+	padding: 2px 2px 2px 2px; 
+	margin-top: 15px;
+	margin-bottom: 25px;
+	transition: ease 1s;
+}
+
+
+.button-div{
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+
+.skill-button{
+	background-color: white;
+	border: black solid 1px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color:black;
+	border-radius: 3px;
+	font-size: 12px;
+	transition: ease .5s;
+	padding:4px 10px 4px 10px;
+	margin-top:-15vh;
+}
+
+.skill-button:hover{
+	background-color: black;
+	border: white solid 1px;
+	font-size: 13px;
+	letter-spacing: 1.1px;
+	color:white;
+	padding:5px 11px 5px 11px;
+	transition: ease .5s;
+}
+
+
+.skill-group{
+	opacity: 0;
+	position: absolute;
+	z-index: 1000;
+	list-style: none;
+	color: black;
+	margin-top: -35vh;
+	transition: ease .5s;
+	font-weight: 100;
+	letter-spacing: 1px;	
+}
+
+
+.button-group{
+	opacity: 0;
+	position: absolute;
+	z-index: 1000;
+	list-style: none;
+	color: black;
+	transition: ease .5s;
+	font-weight: 100;f
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	width:100%;
+    margin-top: -15vh;
+}
+
+
+.fade-in-title-skills{
+	opacity: 1;
+	transition: ease .5s;
+	margin-top: -31vh;
+}
+
+.fade-in-button{
+	opacity: 1;
+	transition: ease .5s;
+	margin-top: -4vh;
+}
+
+.hover-fade{
+	opacity: 0;
+	filter:grayscale(30%);
+	transition: ease .5s;
+}
+
+.bio-container{
+	margin-top: 20vh;
+	margin-left: 10vh;
+}
+
+
+.plant-container, .dog-container, .desk-container{
+	position: absolute;
+}
+
+.plant-container{
+	margin-top: 0vh;
+	max-width: 20vh;
+	z-index: 999;
+	
+}
+
+
+.dog-container{
+	margin-top: 25vh;
+	max-width: 15vh;
+	z-index: 999;
+	right: 15vh;
+}
+
+
+.desk-container{
+	margin-top: 10vh;
+	z-index: 99;
+	right: 25vh;
+}
+
+
+
+
+/*END INDEX */
+
+/*PROJECTS*/
+
+.project-section{
+
+}
+
+.project-group{
+	text-align: center;
+	
+}
+
+.image-responsive{
+	width:100%;
+}
+
+
+
+/*END PROJECTS*/
+
+
+
+.skill-header{
+  text-align: center;
+  color:black;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  /*font-family: 'Patua One', cursive;*/
+}
+
+
+
+.background{
+ background-color:white;
+}
+
+
+.navbar-toggle{
+  background-color:white;
+}
+
+.icon-bar{
+  background-color:white;
+}
+
+.nav{
+  text-align: left;
+}
+
+/*INDEX SECTION*/
+
+
+
+
+#index{
+  background-image: url("city-image-dark.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  height: 50vw;
+}
+
+
+.center{ /*line up name, button, line on page*/
+  padding-right: 0px;
+  text-align: center;
+}
+
+@keyframes fadein {
+  from { opacity: 0; letter-spacing: .1vw;}
+  to   { opacity: 1; letter-spacing: .2vw;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; letter-spacing: .1vw;}
+  to   { opacity: 1; letter-spacing: .2vw;}
+
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; letter-spacing: .1vw;}
+  to   { opacity: 1; letter-spacing: .2vw;}
+
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; letter-spacing: .1vw;}
+  to   { opacity: 1; letter-spacing: .2vw;}
+
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; letter-spacing: .1vw;}
+  to   { opacity: 1; letter-spacing: .2vw;}
+
+}
+/*name and button*/
+
+.name{ /*<--title and paragraph-->*/
+  font-size:5.42vw;
+  text-align: center;
+  letter-spacing: .2vw;
+  font-weight: 700;
+  color: #FFD738;
+  font-family: font-family: 'Patua One', cursive;
+  margin-left: 0px;
+  margin-top: 100px;
+  line-height: 6.3vw;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+
+
+.get-in-touch{
+  letter-spacing: 1px;
+  margin-top: 40px;
+  background-color: transparent;
+  border:1px white solid;
+  color: white;
+  font-size:25px;
+  font-family: font-family: 'Patua One', cursive;
+  font-weight: 100;
+  position:relative;
+  text-align: center;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+
+.get-in-touch:hover{
+  background-color:white;
+  letter-spacing: 2px;
+}
+
+
+/*PROJECT SECTION*/
+
+#projects{
+  margin-bottom:70px;
+  margin-top: 150px;
+}
+
+.skill-header-projects{
+  text-align: center;
+  color:black;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+
+
+#project{
+  background-color: white;
+}
+
+
+.owl-dots {
+  margin-top: 0px;
+  z-index: 1000;
+  position: relative;
+  text-align: center;
+  margin-top: -20px
+}
+
+div.owl-dot.active {
+  border: 5px black solid;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 1.2vw;
+}
+
+div.owl-dot {
+ border: 5px silver solid; 
+ border-radius: 6px;
+ display: inline-block;
+ margin: 1.2vw;
+}
+
+.owl-carousel .owl-nav .owl-prev img {
+  max-width: 25px;
+  z-index: 1002;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 2%;
+}
+
+
+.owl-carousel .owl-nav .owl-next img{
+  margin-left: 95%;
+  max-width: 25px;
+  z-index: 1002;
+  position: absolute;
+  margin-top: -20%;
+}
+
+
+.carousel-indicators .active{
+  background-color:#4d4d4d;
+}
+
+.carousel-indicators li {
+ border:1px solid #4d4d4d;
+}
+
+.carousel-indicators {
+  margin-bottom: -10px;
+}
+
+
+
+/*CONTACT SECTION*/
+#contact{
+  background-image:url("citystreet.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+
+.contact-container{
+  margin-bottom: 170px;
+}
+
+.contact-section{
+  background-color: #6C6C50;
+}
+
+.div-box-contact{
+ border-bottom: solid 1px white;
+ margin-bottom:150px;
+ margin-top: 20px;
+}
+
+.skill-header-contact{
+  text-align: center;
+  color:white;
+  margin-top:100px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+.center{
+  text-align: center;
+}
+
+.contact-info{
+  font-size:1.7em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.contact-info2{
+  font-size:1.7em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+a.contact-info2:hover, a.contact-info:hover{
+  text-decoration: none;
+  color:white;
+}
+
+.fa-envelope{
+  color:white;
+  margin-right:20px;
+}
+
+.fa-phone-square{
+  color:white;
+  margin-right:20px;
+}
+
+
+/*social media icons*/
+.github{
+  margin-left:-25px;
+}
+
+.icons{
+  list-style-type: none;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+
+.socialmedia-icons{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.space{
+  margin-right: 23px;
+}
+
+.fa-github:hover{
+  color:black;
+}
+
+.fa-linkedin:hover {
+  color:#007bb6
+}
+
+.fa-twitter:hover{
+  color:#00aced;
+}
+
+.fa-facebook:hover{
+  color:#3b5998;
+}
+
+
+.fa-linkedin, .fa-twitter, .fa-facebook, .fa-github{
+  color:white;
+}
+
+.icons{
+  margin-bottom: 100px;
+}
+
+
+.scroll-margin{
+  padding-right: 35px;
+  padding-left: 35px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.container-fluid{
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+
+
+
+
+@media screen and (min-width:1500px)  {
+  .name{
+    font-size:4.5vw;
+  }
+}
+
+
+
+/*tablet-size lrg */
+@media screen and (max-width:991px)  {
+
+
+  .name{
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .web{
+    font-size:8vw;
+  }
+}
+/*tablet-size med*/
+@media screen and (max-width:768px)  {
+
+
+  .owl-prev, .owl-next{
+    display: none;
+  }
+
+
+
+  /*ALL SECTIONS */
+  .section-header{
+    font-size:3em;
+  }
+
+  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:70px;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
+  }
+
+  .owl-dots{
+   margin-top:0px;
+ }
+
+ /*INDEX SECTION*/
+ .navbar{
+  background-color: white;
+}
+
+
+.name{
+  margin-top: 280px;
+}
+}
+
+
+
+
+/*tablet-size sm*/
+@media screen and (max-width:580px)  {
+
+  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:100px;
+    font-size: 3em;
+  }
+
+  .skill-header-skills, .skill-header-projects{
+    text-align: center;
+    color:black;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
+  }
+  .skill-header-contact{
+    font-size:3em;
+    color:white;
+  }
+
+  .owl-dots{
+    margin-top: 10px;
+  }
+
+  /*  INDEX SECTION*/
+
+  .get-in-touch{
+    background-color:white;
+    color:gray;
+  }
+
+
+  /*PROJECT SECTION*/
+  .project-section{
+    margin-bottom: 60px;
+  }
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}
+}
+
+
+
+/*mobile-size*/
+@media screen and (max-width:500px)  {
+
+  .navbar-brand{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: .4vw;
+  }
+
+  #index{
+    background-image: url("lights.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*background-repeat: no-repeat;*/
+    width: 100%;
+    min-height: 100%;
+  }
+
+
+  /*ALL SITES */
+  .skill-header-skills, .skill-header, .skill-header-projects{
+    font-size:2.4em;
+    margin-top: 100px;
+  }
+  .skill-header-contact{
+    font-size:2.4em;
+    margin-top: 100px;
+  }
+
+
+  .skill-header-contact{
+    color:white;
+  }
+
+
+  /*contact*/
+  .div-box-contact{
+    border-bottom: solid 1px white;
+    margin-bottom:100px;
+    margin-top: 20px;
+  }
+
+
+  /*INDEX*/
+  .index-container{
+    margin-bottom: 30px;
+  }
+
+  #index {
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 0px;
+  }
+
+  .name{
+
+    margin-top: 42%;
+    font-weight: 400;
+  }
+
+  .get-in-touch{
+    margin-top: -5px;
+  }
+
+
+
+
+
+
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}
+
+/*CONTACT SECTION*/
+#contact{
+  position: relative;
+  display: block;
+  height: auto;
+  width: auto;
+  background-color: #222222;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-bottom: 240px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
+
+.contact-info{
+  font-size:1.2em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-info2{
+  font-size:1.3em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-container{
+  margin-bottom: 70px;
+}
+.icons{
+  margin-top: -20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.skill-header-skills, .skill-header, .skill-header-projects{
+  font-size:2.4em;
+  margin-top: 100px;
+}
+
+}
+
+
